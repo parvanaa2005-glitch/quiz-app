@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+   
+    background: linear-gradient(135deg, #8ea0e8, #cba9ed);
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #0d0d0d;
+}
+
+#startBtn {
+    background: #764ba2;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#startBtn:hover {
+    background: #5a3580;
+}
+
